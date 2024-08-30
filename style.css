@@ -1,4 +1,13 @@
-﻿*{
+﻿/*
+	Theme name: ProductRunt
+	Theme URI: http://www.productrunt.com
+	Author: Luiz Antonio
+	Author URI: https://www.potfolio.com
+	Description: Descricao do site
+	Version: 1.0
+*/
+
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
