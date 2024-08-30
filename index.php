@@ -7,14 +7,14 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
+	<link href="<?php echo get_theme_root_uri(); ?>/danki/style.css" rel="stylesheet">
 </head>
 <body>
 
 	<section class="topo">
 		<div class="center">
 			<header>
-				<div class="logo"><img src="images/logo.png" /></div><!--logo-->
+				<div class="logo"><img src="<?php echo get_theme_root_uri(); ?>/danki/images/logo.png" /></div><!--logo-->
 			</header>
 			<ul class="menu-desktop">
 				<li><a href="">Home</a></li>
@@ -38,7 +38,7 @@
 				<a target="_blank" href="https://dankicode.com">Ver demonstração</a>
 			</div><!--w50-->
 			<div class="w50 time-imagem">
-				<img src="images/equipe.png" />
+				<img src="<?php echo get_theme_root_uri(); ?>/danki/images/equipe.png" />
 			</div><!--w50-->
 			<div class="clear"></div>
 		</div><!--center-->
@@ -49,16 +49,16 @@
 
 		<div class="center">
 		<div style="max-width: 700px;margin: 0 auto;overflow: hidden;" class="slider-container">
-			<img src="images/amazon.jpg" />
-			<img src="images/costco.jpg" />
-			<img src="images/dominos.jpg" />
-			<img src="images/uber.jpg" />
-			<img src="images/walmart.jpg" />
-			<img src="images/amazon.jpg" />
-			<img src="images/costco.jpg" />
-			<img src="images/dominos.jpg" />
-			<img src="images/uber.jpg" />
-			<img src="images/walmart.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/amazon.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/costco.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/dominos.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/uber.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/walmart.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/amazon.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/costco.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/dominos.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/uber.jpg" />
+			<img src="<?php echo get_theme_root_uri(); ?>/danki/images/walmart.jpg" />
 		</div>
 		</div><!--center-->
 	</section>
@@ -72,19 +72,19 @@
 				<div class="icons-diferenciais">
 
 					<div class="box-single-diferenciais">
-						<img src="images/icon1.png" />
+						<img src="<?php echo get_theme_root_uri(); ?>/danki/images/icon1.png" />
 						<h3>Ambientes Mobile</h3>
 						<p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
 					</div><!--box-single-diferenciais-->
 
 					<div class="box-single-diferenciais">
-						<img src="images/icon2.png" />
+						<img src="<?php echo get_theme_root_uri(); ?>/danki/images/icon2.png" />
 						<h3>Ambientes Mobile</h3>
 						<p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
 					</div><!--box-single-diferenciais-->
 
 					<div class="box-single-diferenciais">
-						<img src="images/icon3.png" />
+						<img src="<?php echo get_theme_root_uri(); ?>/danki/images/icon3.png" />
 						<h3>Ambientes Mobile</h3>
 						<p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
 					</div><!--box-single-diferenciais-->
@@ -104,7 +104,7 @@
 				Comunicar bem, de forma coerente e clara não é algo fácil e estamos aqui para ajudar você e seu time. Você escolhe, remoto ou presencial, para seu cliente ou seu público interno, você determina como vamos te ajudar.</p>
 			</div><!--w50-->
 			<div class="w50 img-time">
-				<img src="images/time.png" />
+				<img src="<?php echo get_theme_root_uri(); ?>/danki/images/time.png" />
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -117,17 +117,17 @@
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Guilherme Grillo</p>
-					<img src="images/autor.jpg" />
+					<img src="<?php echo get_theme_root_uri(); ?>/danki/images/autor.jpg" />
 				</div><!--depoimento-single-->
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Guilherme Grillo</p>
-					<img src="images/autor.jpg" />
+					<img src="<?php echo get_theme_root_uri(); ?>/danki/images/autor.jpg" />
 				</div><!--depoimento-single-->
 				<div class="depoimento-single">
 					<p>"Aliqua quis ut duis eiusmod laboris aliquip elit consequat incididunt occaecat minim in consequat ut id culpa veniam. Ut mollit culpa laboris reprehenderit esse id anim anim quis in sed laborum irure mollit culpa."</p>
 					<p>Guilherme Grillo</p>
-					<img src="images/autor.jpg" />
+					<img src="<?php echo get_theme_root_uri(); ?>/danki/images/autor.jpg" />
 				</div><!--depoimento-single-->
 			</div><!--depoimentos-box-->
 		</div>
@@ -159,13 +159,13 @@
 				<a href="">FAQ</a>
 			</div>
 			<div style="width: 40%;text-align: right;" class="col-footer">
-				<img src="images/logo-footer.png" />
+				<img src="<?php echo get_theme_root_uri(); ?>/danki/images/logo-footer.png" />
 			</div>
 		</div>
 	</footer>
 
-<script src="js/jquery.js"></script>
-<script src="js/slick.min.js"></script>
+<script src="<?php echo get_theme_root_uri(); ?>/danki/js/jquery.js"></script>
+<script src="<?php echo get_theme_root_uri(); ?>/danki/js/slick.min.js"></script>
 <script type="text/javascript">
 	$('section.clientes-slider .slider-container').slick({
 		dots: true,
