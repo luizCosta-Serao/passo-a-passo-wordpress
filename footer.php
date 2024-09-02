@@ -1,7 +1,7 @@
 <footer>
 	<?php
 		$title = get_the_title();
-		if($title !== 'Contato') {
+		if($title !== 'Contato' && is_404() === false) {
 	?>
 		<section class="metodologia">
 			<div class="center">
