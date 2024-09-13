@@ -6,12 +6,12 @@
 			<br />
 			<br />
 			<div class="w50 time-descricao">
-				<h2>Melhore a comunicação com seu cliente e time.</h2>
+				<h2><?php the_field('chamada_topo') ?></h2>
 				<p>Consultoria especializada em startups, empresas, principalmente, pessoas.</p>
 				<a target="_blank" href="https://dankicode.com">Ver demonstração</a>
 			</div><!--w50-->
 			<div class="w50 time-imagem">
-				<img src="<?php echo get_theme_root_uri(); ?>/danki/images/equipe.png" />
+				<img src="<?php the_field('imagem_topo'); ?>" />
 			</div><!--w50-->
 			<div class="clear"></div>
 		</div><!--center-->
